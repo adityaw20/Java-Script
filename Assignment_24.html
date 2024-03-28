@@ -18,6 +18,43 @@
         areacircle(5);
         areacircle(26);
 
+        //Argument and return 
+
+        function arearectangle(length, breadth) {
+            const area = length * breadth;
+            return area;
+        }
+
+        const R = arearectangle(10, 20);
+        console.log(`Area of Rectaangle :${R} `);
+
+        //Argument and No return
+
+        function areaSquare(side) {
+            const area = side * side;
+            console.log(`Area of Square :${area} `);
+        }
+        areaSquare(5);
+
+        //No argument and No return
+
+        const Radius = 15;
+        function areaOfCircle() {
+            const area = 3.14 * Radius * Radius;
+            console.log(`Area of Circle :${area} `);
+        }
+        areaOfCircle();
+
+        //No argument and return
+
+        const side = 10;
+        function areaOfSquare() 
+        {
+            const area = side * side;
+            return area;
+        }
+        const A = areaOfSquare();
+        console.log(`Area of Square :${A}`);
 
     </script>
 </body>
